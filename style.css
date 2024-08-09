@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cinza-escuro: #333333ff;
+    --cinza-claro: #d5ccc7ff;
+    --prata: #a9a29cff;
+    --preto-cinza: #28262bff;
+}
