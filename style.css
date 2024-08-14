@@ -9,3 +9,23 @@
     --prata: #a9a29cff;
     --preto-cinza: #28262bff;
 }
+
+body{
+  background-color: aliceblue;
+  color: gray;
+  
+}
+
+.cabecalho{
+    background-color : var #9d9d9d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.cabecalho.img{
+    width: 15%;
+    border-radius: 100%;
+
+}
