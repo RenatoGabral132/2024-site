@@ -13,7 +13,7 @@
 }
 
 body{
-  background-color: var(#c90505) ;
+  background-color: var(#808080) ;
   font-family: var(--cinza-claro);
   font-size: 16px;
   
@@ -52,8 +52,8 @@ margin-right: 10px;
     gap: 50px;
     background-image: url(img/vecteezy_abstract-background-modern-dynamic-background-usable-for_36490934.jpg);
     background-repeat: no-repeat;
-    margin-left: 2px;
-    padding: 24px 12px;
+    margin-left: 0px;
+    padding: 10px 5px;
     
 }
 .principal-capa__conteúdo{
@@ -65,11 +65,25 @@ margin-right: 10px;
 
 .principal-capa__imagem{
     border-radius: 100% 100%;
-    margin-left: 50%;
+    margin-left: 100%;
 }
 
 .principal-capa__titulo{
     color: white;
+}
+
+.principal-capa__combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.principal-capa__botao{
+    background-color: var(--cinza-claro);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+    color: var(--cinza-escuro);
+    text-decoration: none;
 }
 
 
