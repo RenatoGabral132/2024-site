@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Pirata+One&display=swap');
 *{ 
     margin: 0;
     padding: 0;
@@ -9,13 +9,17 @@
     --cinza-claro: #d5ccc7ff;
     --prata: #a9a29cff;
     --preto-cinza: rgb(110, 108, 114);
-    font-family:  url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');;
+    --font-titulo:"Bungee Tint", sans-serif;
+    --font-texto:"Pirata One", system-ui;
+    
 }
 
 body{
   background-color: var(#808080) ;
-  font-family: var(--cinza-claro);
-  font-size: 16px;
+  font-family: var(--font-texto);
+  font-size: 22px;
+  font-weight: 20px;
+
   
 }
 
@@ -34,9 +38,10 @@ body{
 }
 .cabecalho-nav_link{
 text-decoration: none;
-font-size: 36px;
+font-size: 22px;
 color:black;
-margin-right: 10px;
+margin-right: 50px;
+font-family: var(--font-titulo);
 }
 
 .cabecalho-nav_link:hover{
@@ -61,6 +66,8 @@ margin-right: 10px;
     flex-direction: column;
     gap: 10px;
     margin-top: 20px;
+    margin-right: 200px;
+
 }
 
 .principal-capa__imagem{
@@ -71,7 +78,9 @@ margin-right: 10px;
 .principal-capa__titulo{
     color: rgb(255, 255, 255);
     flex-direction: column;
-    text-align: center;
+    text-align: left;
+    margin-right: 100px;
+
 }
 
 .principal-capa__subtitulo{
@@ -84,14 +93,25 @@ margin-right: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    
 }
 .principal-capa__botao{
     background-color: var(--cinza-claro);
-    border-radius: 5px;
+    border-radius: 500px;
     padding: 1em;
-    margin-top: 2em;
+    margin-top: 5em;
     color: var(--cinza-escuro);
     text-decoration: none;
+
+}
+
+.botao__secundario{
+    background-color:var(--cinza-claro);
+    border: 2px solid rgb(134, 131, 117);
+    color: var(--cinza-escuro);
+    margin-top: 5em;
+    margin-left: 200px;
+    padding: 1em;
 }
 
 
