@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Pirata+One&display=swap');
-*{ 
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=New+Amsterdam&display=swap');
+*{
+    margin:0px ;
+    padding:0px ;
 }
-
 :root{
     --cinza-escuro: #333333ff;
     --cinza-claro: #d5ccc7ff;
     --prata: #a9a29cff;
     --preto-cinza: rgb(110, 108, 114);
-    --font-titulo:"Bungee Tint", sans-serif;
-    --font-texto:"Pirata One", system-ui;
+    --font-titulo:"New Amsterdam", sans-serif;
+    --font-texto:"Amatic SC", sans-serif;
     
 }
 
 body{
-  background-color: var(#808080) ;
+  background-color: var(#000000) ;
   font-family: var(--font-texto);
   font-size: 22px;
   font-weight: 20px;
@@ -24,8 +23,9 @@ body{
 }
 
 .cabecalho{
-    background-color:rgba(51, 13, 13, 0.185);
+    background-color:rgb(0, 0, 0);
     display: flex;
+    background-image: url(img/vecteezy_abstract-background-modern-dynamic-background-usable-for_36490934.jpg);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -45,17 +45,17 @@ font-family: var(--font-titulo);
 }
 
 .cabecalho-nav_link:hover{
-    color: var(--cinza-escuro);
-    font-size: 46px;
+    color: var(--prata);
+    font-size: 25px;
     transition: 0.15s;
 }
 
 .principal-capa{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:  center;
     gap: 50px;
-    background-image: url(img/vecteezy_abstract-background-modern-dynamic-background-usable-for_36490934.jpg);
+    background-image: url(img/vecteezy_minimal-geometric-background-dynamic-shapes-composition_24552404.jpg);
     background-repeat: no-repeat;
     margin-left: 2px;
     padding: 10px 10px;
@@ -65,14 +65,17 @@ font-family: var(--font-titulo);
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 20px;
-    margin-right: 200px;
+    margin-top: 25px;
+    margin-right: 500px;
+    width: 60%;
 
 }
 
 .principal-capa__imagem{
     border-radius: 100% 100%;
-    margin-left: 100%;
+    margin-left: 150%;
+    width: 60%;
+
 }
 
 .principal-capa__titulo{
@@ -80,6 +83,7 @@ font-family: var(--font-titulo);
     flex-direction: column;
     text-align: left;
     margin-right: 100px;
+    font-family: var(--font-titulo);
 
 }
 
@@ -95,24 +99,15 @@ font-family: var(--font-titulo);
     align-items: flex-start;
     
 }
-.principal-capa__botao{
-    background-color: var(--cinza-claro);
-    border-radius: 500px;
-    padding: 1em;
-    margin-top: 5em;
-    color: var(--cinza-escuro);
+.principal-capa__botao:hover{
+    transition: 1.2s;
+    background-color:rgb(122, 122, 122);
+    color: black;
     text-decoration: none;
+    border-radius: 220px;
+ 
 
-}
-
-.botao__secundario{
-    background-color:var(--cinza-claro);
-    border: 2px solid rgb(134, 131, 117);
-    color: var(--cinza-escuro);
-    margin-top: 5em;
-    margin-left: 200px;
-    padding: 1em;
-}
+    }
 
 
 
