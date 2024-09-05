@@ -57,7 +57,7 @@ font-family: var(--font-titulo);
     gap: 50px;
     background-image: url(img/vecteezy_minimal-geometric-background-dynamic-shapes-composition_24552404.jpg);
     background-repeat: no-repeat;
-    margin-left: 2px;
+    margin-left: 0px;
     padding: 10px 10px;
     
 }
@@ -99,13 +99,25 @@ font-family: var(--font-titulo);
     align-items: flex-start;
     
 }
-.principal-capa__botao:hover{
-    transition: 1.2s;
+.principal-capa__botao{
     background-color:rgb(122, 122, 122);
     color: black;
     text-decoration: none;
-    border-radius: 220px;
- 
+    border-radius: 5%;
+    font-weight: 500%;
+    font-weight: 1000;
+    }
+.principal-capa__botao:hover{
+   background-color: brown;
+   color: black;
+   transition: 0.7s;
+}
+
+.propaganda img{
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+    width: 20px;
 
     }
 
