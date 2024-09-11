@@ -25,21 +25,24 @@ body{
 .cabecalho{
     background-color:rgb(0, 0, 0);
     display: flex;
-    background-image: url(img/vecteezy_abstract-background-modern-dynamic-background-usable-for_36490934.jpg);
+    background-color:rgb(185, 141, 66);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
 
 .cabecalho-img{
-    width: 10%;
-    border-radius: 1000%;
+    width: 30%;
+    margin-left: 35px;
+    margin-top: 11px;
+    border-radius: 100%;
+    background-color: black;
 
 }
 .cabecalho-nav_link{
 text-decoration: none;
-font-size: 22px;
-color:black;
+font-size: 33px;
+color:rgb(0, 0, 0);
 margin-right: 50px;
 font-family: var(--font-titulo);
 }
@@ -54,11 +57,11 @@ font-family: var(--font-titulo);
     display: flex;
     justify-content: center;
     align-items:  center;
-    gap: 50px;
-    background-image: url(img/vecteezy_minimal-geometric-background-dynamic-shapes-composition_24552404.jpg);
+    gap: 500px;
+    background-image: url(img/fundo\ preto.jpg);
     background-repeat: no-repeat;
     margin-left: 0px;
-    padding: 10px 10px;
+    padding: 5px 5px;
     
 }
 .principal-capa__conteúdo{
@@ -71,25 +74,30 @@ font-family: var(--font-titulo);
 
 }
 
-.principal-capa__imagem{
+.principal-capa__imagem{ 
     border-radius: 100% 100%;
     margin-left: 150%;
-    width: 60%;
+    width: 70%;
+    margin-top: 0%;
 
 }
 
+
 .principal-capa__titulo{
-    color: rgb(255, 255, 255);
+    color: rgb(227, 176, 80);
     flex-direction: column;
     text-align: left;
     margin-right: 100px;
     font-family: var(--font-titulo);
+    font-size: 50px;
+
 
 }
 
 .principal-capa__subtitulo{
-    color: white;
+    color: rgb(145, 121, 15);
     flex-direction: column;
+    font-size: 125%;
 
 }
 
@@ -100,7 +108,7 @@ font-family: var(--font-titulo);
     
 }
 .principal-capa__botao{
-    background-color:rgb(122, 122, 122);
+    background-color:rgba(207, 204, 43, 0.538);
     color: black;
     text-decoration: none;
     border-radius: 5%;
@@ -108,18 +116,21 @@ font-family: var(--font-titulo);
     font-weight: 1000;
     }
 .principal-capa__botao:hover{
-   background-color: brown;
+   background-color: rgb(216, 183, 63);
    color: black;
    transition: 0.7s;
 }
 
-.propaganda img{
+.propaganda-imagem{
+    display: flex;
     align-items: flex-start;
     flex-direction: column;
     display: flex;
     width: 20px;
 
     }
+
+
 
 
 
